@@ -19,7 +19,6 @@ namespace Escuta_Secumore
 {
     class Program
     {
-        private static SortedDictionary<string, TcpClient> socket_rastreadores = new SortedDictionary<string, TcpClient>();
         private static ArrayList contas = new ArrayList();
 
         private static void Main()
